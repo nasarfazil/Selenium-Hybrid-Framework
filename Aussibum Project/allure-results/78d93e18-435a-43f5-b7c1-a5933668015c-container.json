@@ -1,0 +1,1 @@
+{"uuid":"78d93e18-435a-43f5-b7c1-a5933668015c","name":" Aussibum Suite","children":["0d509bf3-35f7-4cc1-89a2-16075401b1e6"],"befores":[{"name":"loadConfig","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1678106759356,"stop":1678106760350}],"afters":[],"start":1678106759322,"stop":1678106891104}

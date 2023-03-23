@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="7" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name=" Aussibum Suite" duration-ms="77092" started-at="2023-03-13T09:19:24 IST" finished-at="2023-03-13T09:20:41 IST">
+    <groups>
+      <group name="Sanity">
+        <method signature="CartTest.Verify_Product_movedtocheckout_Tc02()[pri:1, instance:com.aussibum.testcases.CartTest@5d332969]" name="Verify_Product_movedtocheckout_Tc02" class="com.aussibum.testcases.CartTest"/>
+        <method signature="CheckoutTest.Verify_Order_Place_Tc03(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.aussibum.testcases.CheckoutTest@7cc9ce8]" name="Verify_Order_Place_Tc03" class="com.aussibum.testcases.CheckoutTest"/>
+        <method signature="HomeTest.Verify_Product_addedtocart_Tc01()[pri:0, instance:com.aussibum.testcases.HomeTest@17ae98d7]" name="Verify_Product_addedtocart_Tc01" class="com.aussibum.testcases.HomeTest"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="CartTest.Verify_Product_movedtocheckout_Tc02()[pri:1, instance:com.aussibum.testcases.CartTest@5d332969]" name="Verify_Product_movedtocheckout_Tc02" class="com.aussibum.testcases.CartTest"/>
+        <method signature="CheckoutTest.Verify_Order_Place_Tc03(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.aussibum.testcases.CheckoutTest@7cc9ce8]" name="Verify_Order_Place_Tc03" class="com.aussibum.testcases.CheckoutTest"/>
+        <method signature="HomeTest.Verify_Product_addedtocart_Tc01()[pri:0, instance:com.aussibum.testcases.HomeTest@17ae98d7]" name="Verify_Product_addedtocart_Tc01" class="com.aussibum.testcases.HomeTest"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="CartTest.Verify_Product_movedtocheckout_Tc02()[pri:1, instance:com.aussibum.testcases.CartTest@5d332969]" name="Verify_Product_movedtocheckout_Tc02" class="com.aussibum.testcases.CartTest"/>
+        <method signature="CheckoutTest.Verify_Order_Place_Tc03(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.aussibum.testcases.CheckoutTest@7cc9ce8]" name="Verify_Order_Place_Tc03" class="com.aussibum.testcases.CheckoutTest"/>
+        <method signature="HomeTest.Verify_Product_addedtocart_Tc01()[pri:0, instance:com.aussibum.testcases.HomeTest@17ae98d7]" name="Verify_Product_addedtocart_Tc01" class="com.aussibum.testcases.HomeTest"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name=" Aussibum Test" duration-ms="77092" started-at="2023-03-13T09:19:24 IST" finished-at="2023-03-13T09:20:41 IST">
+      <class name="com.aussibum.testcases.CartTest">
+        <test-method status="PASS" signature="Verify_Product_movedtocheckout_Tc02()[pri:1, instance:com.aussibum.testcases.CartTest@5d332969]" name="Verify_Product_movedtocheckout_Tc02" duration-ms="10845" started-at="2023-03-13T09:19:51 IST" description="Verifying product add to the checkout page" finished-at="2023-03-13T09:20:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Product_movedtocheckout_Tc02 -->
+      </class> <!-- com.aussibum.testcases.CartTest -->
+      <class name="com.aussibum.testcases.HomeTest">
+        <test-method status="PASS" signature="loadConfig()[pri:0, instance:com.aussibum.testcases.HomeTest@17ae98d7]" name="loadConfig" is-config="true" duration-ms="2106" started-at="2023-03-13T09:19:22 IST" finished-at="2023-03-13T09:19:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadConfig -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.aussibum.testcases.HomeTest@17ae98d7]" name="setup" is-config="true" duration-ms="14424" started-at="2023-03-13T09:19:24 IST" finished-at="2023-03-13T09:19:39 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Verify_Product_addedtocart_Tc01()[pri:0, instance:com.aussibum.testcases.HomeTest@17ae98d7]" name="Verify_Product_addedtocart_Tc01" duration-ms="11897" started-at="2023-03-13T09:19:39 IST" description="Verifying product add to the cart" finished-at="2023-03-13T09:19:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Product_addedtocart_Tc01 -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.aussibum.testcases.HomeTest@17ae98d7]" name="afterSuite" is-config="true" duration-ms="1712" started-at="2023-03-13T09:20:42 IST" finished-at="2023-03-13T09:20:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.aussibum.testcases.HomeTest -->
+      <class name="com.aussibum.testcases.CheckoutTest">
+        <test-method status="PASS" signature="Verify_Order_Place_Tc03(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.aussibum.testcases.CheckoutTest@7cc9ce8]" name="Verify_Order_Place_Tc03" duration-ms="36132" started-at="2023-03-13T09:20:05 IST" description="Verifying order placement" data-provider="Checkout_data" finished-at="2023-03-13T09:20:41 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nasar@macappstudio.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[nasar@macappstudio.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[(AU) Australia]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Nasar]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Fazil]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[61.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[4 1234 5678]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Mac App]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[813.0]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Shirley Street]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[PIMPAMA]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[PIMPAMA]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Queensland]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[4209.0]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Leave it door]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[4242 4242 4242 4242]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[1228.0]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[678.0]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Nasar F]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Order_Place_Tc03 -->
+      </class> <!-- com.aussibum.testcases.CheckoutTest -->
+    </test> <!--  Aussibum Test -->
+  </suite> <!--  Aussibum Suite -->
+</testng-results>

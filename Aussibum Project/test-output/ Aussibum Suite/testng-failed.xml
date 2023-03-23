@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ Aussibum Suite]">
+  <listeners>
+    <listener class-name="com.aussibum.utility.ListenerClass"/>
+    <listener class-name="com.aussibum.utility.Transformer"/>
+    <listener class-name="com.aussibum.utility.AllureListener"/>
+  </listeners>
+  <test thread-count="5" name=" Aussibum Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.aussibum.testcases.HomeTest">
+        <methods>
+          <include name="Verify_Product_addedtocart_Tc01"/>
+          <include name="afterSuite"/>
+          <include name="loadConfig"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.aussibum.testcases.HomeTest -->
+      <class name="com.aussibum.testcases.CartTest">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="Verify_Product_movedtocheckout_Tc02"/>
+          <include name="loadConfig"/>
+        </methods>
+      </class> <!-- com.aussibum.testcases.CartTest -->
+      <class name="com.aussibum.testcases.CheckoutTest">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="Verify_Order_Place_Tc03"/>
+          <include name="loadConfig"/>
+        </methods>
+      </class> <!-- com.aussibum.testcases.CheckoutTest -->
+    </classes>
+  </test> <!--  Aussibum Test(failed) -->
+</suite> <!-- Failed suite [ Aussibum Suite] -->

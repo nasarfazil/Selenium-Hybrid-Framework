@@ -1,0 +1,1 @@
+{"uuid":"3876c3fd-d79b-4b20-9fc0-b34d54ca1fef","name":" Aloro Suite","children":["1da99e9e-9c31-4528-be8e-c478c60cc181"],"befores":[{"name":"loadConfig","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1676543766180,"stop":1676543767358}],"afters":[],"start":1676543766084,"stop":1676543823573}

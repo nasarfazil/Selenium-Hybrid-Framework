@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name=" Aussibum Suite">
+<listeners>
+<listener class-name="com.aussibum.utility.ListenerClass"></listener>
+<listener class-name="com.aussibum.utility.Transformer"></listener>
+<listener class-name="com.aussibum.utility.AllureListener"></listener>
+</listeners>
+  <test thread-count="5" name=" Aussibum Test">
+  <parameter name="browser" value="chrome"></parameter>
+    <classes>
+      <class name="com.aussibum.testcases.HomeTest"/>
+      <class name="com.aussibum.testcases.CartTest"/>
+       <class name="com.aussibum.testcases.CheckoutTest"/>
+        </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
