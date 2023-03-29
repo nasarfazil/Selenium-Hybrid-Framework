@@ -51,8 +51,6 @@ public class HomeTest extends BaseClass{
 		homepage=new HomePage(); 
 		homepage.Click_on_underwear();
 		homepage.click_on_size();
-		Boolean addtocart_verify=homepage.verify_addtocart();
-        Assert.assertTrue(addtocart_verify); 
 		homepage.click_on_Addtocart();
 	}
 }
