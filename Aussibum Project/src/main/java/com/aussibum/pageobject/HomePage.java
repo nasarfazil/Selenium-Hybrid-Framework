@@ -45,7 +45,4 @@ public class HomePage extends BaseClass {
 		action.JSClick(getDriver(), Clickonaddtocart); 
 		return new CartPage();
 	}	
-	public Boolean verify_addtocart() {
-	    return action.isDisplayed(getDriver(),Clickonaddtocart);
-	}
 }
