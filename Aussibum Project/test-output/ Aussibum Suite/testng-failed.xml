@@ -9,6 +9,13 @@
   <test thread-count="5" name=" Aussibum Test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
+      <class name="com.aussibum.testcases.CartTest">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="Verify_Product_movedtocheckout_Tc02"/>
+          <include name="loadConfig"/>
+        </methods>
+      </class> <!-- com.aussibum.testcases.CartTest -->
       <class name="com.aussibum.testcases.HomeTest">
         <methods>
           <include name="Verify_Product_addedtocart_Tc01"/>
@@ -17,17 +24,10 @@
           <include name="setup"/>
         </methods>
       </class> <!-- com.aussibum.testcases.HomeTest -->
-      <class name="com.aussibum.testcases.CartTest">
-        <methods>
-          <include name="afterSuite"/>
-          <include name="Verify_Product_movedtocheckout_Tc02"/>
-          <include name="loadConfig"/>
-        </methods>
-      </class> <!-- com.aussibum.testcases.CartTest -->
       <class name="com.aussibum.testcases.CheckoutTest">
         <methods>
           <include name="afterSuite"/>
-          <include name="Verify_Order_Place_Tc03"/>
+          <include name="Verify_Order_Place_Tc03" invocation-numbers="0"/>
           <include name="loadConfig"/>
         </methods>
       </class> <!-- com.aussibum.testcases.CheckoutTest -->

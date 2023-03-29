@@ -9,12 +9,85 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8"> Aussibum Suite</th></tr>
-<tr><td><a href="#t0"> Aussibum Test</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">77,092</td><td></td><td></td></tr>
+<tr><td><a href="#t0"> Aussibum Test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">3</td><td class="num">66,327</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4"> Aussibum Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4"> Aussibum Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.aussibum.testcases.CartTest</td><td><a href="#m0">Verify_Product_movedtocheckout_Tc02</a></td><td rowspan="1">1678679391872</td><td rowspan="1">10845</td></tr><tr class="passedodd"><td rowspan="1">com.aussibum.testcases.CheckoutTest</td><td><a href="#m1">Verify_Order_Place_Tc03</a></td><td rowspan="1">1678679405820</td><td rowspan="1">36132</td></tr><tr class="passedeven"><td rowspan="1">com.aussibum.testcases.HomeTest</td><td><a href="#m2">Verify_Product_addedtocart_Tc01</a></td><td rowspan="1">1678679379909</td><td rowspan="1">11897</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4"> Aussibum Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4"> Aussibum Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.aussibum.testcases.CartTest</td><td><a href="#m0">Verify_Product_movedtocheckout_Tc02</a></td><td rowspan="1">1680097561657</td><td rowspan="1">10336</td></tr><tr class="failedodd"><td rowspan="1">com.aussibum.testcases.CheckoutTest</td><td><a href="#m1">Verify_Order_Place_Tc03</a></td><td rowspan="1">1680097577751</td><td rowspan="1">10074</td></tr><tr class="failedeven"><td rowspan="1">com.aussibum.testcases.HomeTest</td><td><a href="#m2">Verify_Product_addedtocart_Tc01</a></td><td rowspan="1">1680097544617</td><td rowspan="1">14951</td></tr></tbody>
 </table>
-<h2> Aussibum Test</h2><h3 id="m0">com.aussibum.testcases.CartTest#Verify_Product_movedtocheckout_Tc02</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.aussibum.testcases.CheckoutTest#Verify_Order_Place_Tc03</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th><th>Parameter #13</th><th>Parameter #14</th><th>Parameter #15</th><th>Parameter #16</th><th>Parameter #17</th><th>Parameter #18</th><th>Parameter #19</th></tr><tr class="param stripe"><td>nasar@macappstudio.com</td><td>nasar@macappstudio.com</td><td>(AU) Australia</td><td>Nasar</td><td>Fazil</td><td>61.0</td><td>4 1234 5678</td><td>Mac App</td><td>813.0</td><td>Shirley Street</td><td>PIMPAMA</td><td>PIMPAMA</td><td>Queensland</td><td>4209.0</td><td>Leave it door</td><td>4242 4242 4242 4242</td><td>1228.0</td><td>678.0</td><td>Nasar F</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.aussibum.testcases.HomeTest#Verify_Product_addedtocart_Tc01</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2> Aussibum Test</h2><h3 id="m0">com.aussibum.testcases.CartTest#Verify_Product_movedtocheckout_Tc02</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;minicart_checkout&quot;]/div[2]/div/a[1]&quot;}
+  (Session info: chrome=111.0.5563.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Nasar-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:1841:70e4:b9c7:1c2%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.1&apos;, java.version: &apos;1.8.0_212&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.110, chrome: {chromedriverVersion: 111.0.5563.19 (378a38865270..., userDataDir: /var/folders/3c/n71_h9jd6rl...}, goog:chromeOptions: {debuggerAddress: localhost:64183}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ac35e9155b9e5ceb110f8bd14bb505f1
+*** Element info: {Using=xpath, value=//*[@id=&quot;minicart_checkout&quot;]/div[2]/div/a[1]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy20.getWrappedElement(Unknown Source)
+	at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:50)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:484)
+	at com.aussibum.actiondriver.Action.scrollByVisibilityOfElement(Action.java:41)
+	at com.aussibum.pageobject.CartPage.click_on_checkout(CartPage.java:21)
+	at com.aussibum.testcases.CartTest.Verify_Product_movedtocheckout_Tc02(CartTest.java:21)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.aussibum.testcases.CheckoutTest#Verify_Order_Place_Tc03</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th><th>Parameter #13</th><th>Parameter #14</th><th>Parameter #15</th><th>Parameter #16</th><th>Parameter #17</th><th>Parameter #18</th><th>Parameter #19</th></tr><tr class="param stripe"><td>nasar@macappstudio.com</td><td>nasar@macappstudio.com</td><td>(AU) Australia</td><td>Nasar</td><td>Fazil</td><td>61.0</td><td>4 1234 5678</td><td>Mac App</td><td>813.0</td><td>Shirley Street</td><td>PIMPAMA</td><td>PIMPAMA</td><td>Queensland</td><td>4209.0</td><td>Leave it door</td><td>4242 4242 4242 4242</td><td>1228.0</td><td>678.0</td><td>Nasar F</td></tr><tr><th colspan="19">Exception</th></tr><tr><td colspan="19"><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[contains(@placeholder,&apos;Enter your email address&apos;)]&quot;}
+  (Session info: chrome=111.0.5563.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Nasar-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:1841:70e4:b9c7:1c2%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.1&apos;, java.version: &apos;1.8.0_212&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.110, chrome: {chromedriverVersion: 111.0.5563.19 (378a38865270..., userDataDir: /var/folders/3c/n71_h9jd6rl...}, goog:chromeOptions: {debuggerAddress: localhost:64183}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ac35e9155b9e5ceb110f8bd14bb505f1
+*** Element info: {Using=xpath, value=//*[contains(@placeholder,&apos;Enter your email address&apos;)]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy20.getWrappedElement(Unknown Source)
+	at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:50)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:484)
+	at com.aussibum.actiondriver.Action.JSClick(Action.java:338)
+	at com.aussibum.pageobject.CheckoutPage.click_on_email(CheckoutPage.java:78)
+	at com.aussibum.testcases.CheckoutTest.Verify_Order_Place_Tc03(CheckoutTest.java:15)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.aussibum.testcases.HomeTest#Verify_Product_addedtocart_Tc01</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at com.aussibum.testcases.HomeTest.Verify_Product_addedtocart_Tc01(HomeTest.java:55)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

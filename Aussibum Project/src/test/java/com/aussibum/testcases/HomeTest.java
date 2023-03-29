@@ -3,6 +3,10 @@ package com.aussibum.testcases;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
 import org.testng.AssertJUnit;
+
+import static org.testng.Assert.assertEquals;
+import static org.testng.Assert.assertFalse;
+
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -13,6 +17,7 @@ import org.testng.annotations.Test;
 
 import com.aussibum.base.BaseClass;
 import com.aussibum.dataprovider.DataProviders;
+import com.aussibum.pageobject.CartPage;
 import com.aussibum.pageobject.HomePage;
 import com.aussibum.utility.AllureListener;
 import com.aussibum.utility.Log;
@@ -46,6 +51,8 @@ public class HomeTest extends BaseClass{
 		homepage=new HomePage(); 
 		homepage.Click_on_underwear();
 		homepage.click_on_size();
+		Boolean addtocart_verify=homepage.verify_addtocart();
+        Assert.assertTrue(addtocart_verify); 
 		homepage.click_on_Addtocart();
 	}
 }
